@@ -103,3 +103,7 @@ a {
   /* background-repeat: no-repeat; */
   background-size: auto;
 }
+
+.mat-icon-button {
+  line-height: 30px;
+}
