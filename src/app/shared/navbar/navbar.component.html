@@ -15,35 +15,28 @@
     </a>
     <span class="example-spacer"></span>
     <div fxShow="true" fxHide.lt-md="true">
-
       <a mat-button routerLink="/about-us" class="btn">About us</a>
       <a href="https://www.facebook.com/Okta/" target="_blank"><i class="fab fa-facebook-square"></i></a>
       <a href="https://twitter.com/okta_japan" target="_blank"><i class="fab fa-twitter-square"></i></a>
       <a href="https://www.linkedin.com/company/okta-inc-/" target="_blank"><i class="fab fa-linkedin"></i></a>
       <a href="https://www.youtube.com/OktaInc" target="_blank"><i class="fab fa-youtube-square"></i></a>
-      
-      <a mat-button routerLink="/prices">Prices</a>
-      <a mat-button routerLink="/start-page">Start page</a>
-      <a mat-button routerLink="/offer">Offer</a>
-      <a mat-button routerLink="/contact">Contact</a>
+      <a mat-button routerLink="/offer">Login</a>
+      <a mat-button routerLink="/contact">Logout</a>
     </div>
   </mat-toolbar>
-  <mat-sidenav-container fxFlexFill class="example-container">
+  <mat-sidenav-container fxFlexFill class="sidemenu-container">
     <mat-sidenav color="primary" #sidenav fxLayout="column" mode="over" opened="false" fxHide.gt-sm="true">
       <div fxLayout="column">
+        <a mat-button routerLink="/about-us">About us</a>
         <a href="https://www.facebook.com/Okta/" target="_blank"><i class="sideMenu fab fa-facebook-square"></i></a>
         <a href="https://twitter.com/okta_japan" target="_blank"><i class="sideMenu fab fa-twitter-square"></i></a>
         <a href="https://www.linkedin.com/company/okta-inc-/" target="_blank"><i class="sideMenu fab fa-linkedin"></i></a>
-        <a href="https://www.youtube.com/OktaInc" target="_blank"><i class="sideMenu fab fa-youtube-square"></i></a>
-        <a mat-button routerLink="/about-us">About us</a>
-        <a mat-button routerLink="/prices">Prices</a>
-        <a mat-button routerLink="/start-page">Start page</a>
-        <a mat-button routerLink="/offer">Offer</a>
-        <a mat-button routerLink="/contact">Contact</a>
+        <a href="https://www.youtube.com/OktaInc" target="_blank"><i class="sideMenu fab fa-youtube-square"></i></a>       
+        <a mat-button routerLink="/start-page">Login</a>        
+        <a mat-button routerLink="/contact">Logout</a>
       </div>
     </mat-sidenav>
     <mat-sidenav-content fxFlexFill class="contentArea">
-
       <app-home></app-home>
     </mat-sidenav-content>
   </mat-sidenav-container>
