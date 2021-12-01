@@ -1,5 +1,7 @@
-/* .body{
-  background-image: url("/assets//img/okta_wall_blue.png");
-  height: 100%;
- 
-} */
+.oktaMainLogo {
+  width: 50%;
+  height: auto;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: right;
+}
