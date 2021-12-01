@@ -1,3 +1,31 @@
+.fab {
+  color: #41414B;
+  height: auto;
+  margin-left: 5px;
+  vertical-align: text-top;
+  margin-top: 5px;
+}
+
+
+
+/* #AAAAB4 */
+
+/* .socialMedia{
+width: 20px;
+height: auto;
+margin-left: 5px;
+vertical-align: text-top;
+margin-top: 5px;
+
+}*/
+
+.sideMenu {
+  /* margin: auto; */
+  margin-top: 5px;
+  margin-left: 15px;
+  display: block;
+}
+
 body {
   font-family: "ABCWhyte Book", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu",
     "Cantarell", "Helvetica Neue", sans-serif;
@@ -7,6 +35,8 @@ body {
 .mat-button:active,
 .mat-button:visited,
 .mat-button:focus .btn {
+  font-family: "ABCWhyte Book", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu",
+    "Cantarell", "Helvetica Neue", sans-serif;
   font-size: 80%;
   min-width: min-content;
   background-color: #00297a;
@@ -19,7 +49,7 @@ body {
   box-sizing: border-box;
   border-width: 2px;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 500;
   padding: 0.5rem 18px;
   line-height: 1.75;
   margin-right: 3px;
@@ -35,8 +65,8 @@ body {
 .mat-button:hover {
   background: #ffffff;
   color: #00297a;
-  border-color: #00297a;
-  border-width: 5px;
+  font-family: "ABCWhyte Book", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu",
+    "Cantarell", "Helvetica Neue", sans-serif;
 }
 
 div {
