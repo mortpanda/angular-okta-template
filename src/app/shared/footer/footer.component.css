@@ -1,0 +1,67 @@
+ul {
+   padding-inline-start:  0px;
+}
+
+.github_logo {
+  width: 10px;
+  padding-top: 5px;
+  padding-right: 5px;
+  justify-content: center;
+  color: #41414b;
+}
+
+.footer {
+  font-family: "ABCWhyte Book", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu",
+  "Cantarell", "Helvetica Neue", sans-serif;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  bottom: 0;
+  background-attachment: fixed;
+  line-height: 10px;
+  background: #ffffff;
+  text-transform: uppercase;
+  color: #41414b;
+  list-style: none;
+  line-height: 0.5;
+  opacity: 1;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-bottom: 50px;
+  justify-content: center;
+  align-content: center;
+}
+
+.footer nav > ul > li {
+  font-family: "ABCWhyte Book", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu",
+  "Cantarell", "Helvetica Neue", sans-serif;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 10px;
+  margin: 15px 3px;
+  line-height: 0.5;
+  text-align: center;
+  justify-content: center;
+  color: #41414b;
+}
+.footer nav > ul a:not(.btn) {
+  font-family: "ABCWhyte Book", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu",
+  "Cantarell", "Helvetica Neue", sans-serif;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3px;
+  line-height: 0.5;
+  opacity: 1;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+  justify-content: center;
+  color: #41414b;
+}
+
